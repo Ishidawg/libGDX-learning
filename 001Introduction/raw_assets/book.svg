@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="book.svg"
+   inkscape:export-filename="../assets/book.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="11.671309"
+     inkscape:cx="51.236754"
+     inkscape:cy="33.929355"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#d391af;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="matrix(1.0442659,0,0,1.096036,-0.4721542,-1.5361777)">
+    <rect
+       style="fill:#502d16;stroke-width:0.54803;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect5"
+       width="2.7787004"
+       height="15.326263"
+       x="7.1705585"
+       y="1.4632512"
+       ry="1.4369392" />
+    <rect
+       style="fill:#784421;stroke-width:1.22249;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect6"
+       width="14.848681"
+       height="14.27142"
+       x="1.1355679"
+       y="1.9906732"
+       ry="1.3380406" />
+    <rect
+       style="fill:#666666;stroke-width:0.99375;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect7"
+       width="13.220537"
+       height="13.712974"
+       x="1.94964"
+       y="2.269896"
+       ry="1.275898" />
+    <rect
+       style="fill:#b3b3b3;stroke-width:0.95404;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect8"
+       width="12.221942"
+       height="13.671607"
+       x="2.4489377"
+       y="2.2905793"
+       ry="1.2720491" />
+    <rect
+       style="fill:#e6e6e6;stroke-width:0.91335;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect9"
+       width="11.201637"
+       height="13.671607"
+       x="2.95909"
+       y="2.2905793"
+       ry="1.2720491" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:0.844368;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect10"
+       width="9.5734921"
+       height="13.671607"
+       x="3.7731626"
+       y="2.2905793"
+       ry="1.2720491" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:0.600718;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect11"
+       width="4.8456006"
+       height="13.671607"
+       x="8.4940815"
+       y="2.2905793"
+       ry="1.2720491" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Writinh"
+     transform="translate(0,0.81054601)"
+     style="mix-blend-mode:difference">
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="3.6724675"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="3.6724675">Algorithm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="5.1913271"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="5.1913271">D&amp;S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="6.8235345"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="6.8235345">Graphics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="8.6144285"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="8.6144285">Compute units</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="10.314645"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="10.314645">draw calls</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#333333;stroke-width:0.623076;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="8.4926281"
+       y="11.901513"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.83077px;font-family:Gameplay;-inkscape-font-specification:Gameplay;fill:#333333;stroke-width:0.623076"
+         x="8.4926281"
+         y="11.901513">Love to learn</tspan></text>
+  </g>
+</svg>

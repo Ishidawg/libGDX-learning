@@ -7,6 +7,7 @@ import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
@@ -27,6 +28,7 @@ public class Main implements ApplicationListener {
     Texture phpBook;
     Texture openglBook;
     Texture jsBook;
+    Texture iconBook;
     Sound collectSfx;
     Music soundtrack;
 
@@ -43,6 +45,9 @@ public class Main implements ApplicationListener {
     Rectangle playerRect;
     Rectangle bookRect;
 
+    BitmapFont font;
+    int booksCollected;
+
     @Override
     public void create() { // executes immediately when the game is run
         // Create every texture is no a good practice, instead we need to use TexturePacker
@@ -54,6 +59,7 @@ public class Main implements ApplicationListener {
         phpBook = new Texture("php_book.png");
         openglBook = new Texture("opengl_book.png");
         jsBook = new Texture("js_book.png");
+        iconBook = new Texture("book.png");
 
         books = new Array<>();
         books.addAll(cBook, ccBook, phpBook, openglBook, jsBook);
@@ -78,6 +84,11 @@ public class Main implements ApplicationListener {
         spriteBatch = new SpriteBatch();
         // We can think of a viewport as: the game at it's perfect conditions
         viewport = new FillViewport(128f, 72f); // 1280 x 720 -> 128f, 72f
+
+        // Font
+        font = new BitmapFont();
+        font.setUseIntegerPositions(false);
+        font.getData().setScale(0.4f);
     }
 
     @Override
@@ -132,6 +143,9 @@ public class Main implements ApplicationListener {
             book.draw(spriteBatch);
         }
 
+        spriteBatch.draw(iconBook, 2f, 64f, 6f, 6f);
+        font.draw(spriteBatch, "" + booksCollected, 10f, 69f); // I dont know how to display only yhr booksCollected...
+
         spriteBatch.end();
     }
 
@@ -152,7 +166,7 @@ public class Main implements ApplicationListener {
         float playerWidth = playerSprite.getWidth();
         float playerHeight = playerSprite.getHeight();
 
-        float controllerYSpeed = 20f;
+        float bookYSpeed = 20f;
         float delta = Gdx.graphics.getDeltaTime();
 
         playerSprite.setX(MathUtils.clamp(playerSprite.getX(), 0, worldWidth - playerWidth)); // We are subtracting the far width with the player width to get it bound inside the screen
@@ -162,17 +176,18 @@ public class Main implements ApplicationListener {
 
         for (Sprite book : booksSprites) {
 
-            float controllerWidth = book.getWidth();
-            float controllerHeight = book.getHeight();
+            float bookWidth = book.getWidth();
+            float bookHeight = book.getHeight();
 
-            book.translateY(-controllerYSpeed * delta);
+            book.translateY(-bookYSpeed * delta);
             // Apply the collision
-            bookRect.set(book.getX(), book.getY(), controllerWidth, controllerHeight);
+            bookRect.set(book.getX(), book.getY(), bookWidth, bookHeight);
 
-            if (book.getY() < -controllerHeight) booksSprites.removeValue(book, true);
+            if (book.getY() < -bookHeight) booksSprites.removeValue(book, true);
             if (playerRect.overlaps(bookRect)) {
                 booksSprites.removeValue(book, true);
                 collectSfx.play(.2f);
+                booksCollected++;
             }
         }
 
@@ -184,14 +199,14 @@ public class Main implements ApplicationListener {
     }
 
     private void createBook() {
-        float controllerWidth = 13.2f;
-        float controllerHeight = 13.2f;
+        float bookWidth = 13.2f;
+        float bookHeight = 13.2f;
         float worldWidth = viewport.getWorldWidth();
         float worldHeight = viewport.getWorldHeight();
 
         Sprite bookSprite = new Sprite(books.random()); // controller is the texture
-        bookSprite.setSize(controllerWidth, controllerHeight);
-        bookSprite.setX(MathUtils.random(0f, worldWidth - controllerWidth));
+        bookSprite.setSize(bookWidth, bookHeight);
+        bookSprite.setX(MathUtils.random(0f, worldWidth - bookWidth));
         bookSprite.setY(worldHeight);
         booksSprites.add(bookSprite);
     }
